@@ -62,7 +62,7 @@ fn index() -> Page {
     let markup = base(
         content,
         stylesheets,
-        "snap-both scroll-smooth snap-proximity".to_string(),
+        "snap-both scroll-smooth snap-proximity bg-white".to_string(),
         "grid grid-cols-auto grid-rows-auto".to_string(),
     );
     Page {

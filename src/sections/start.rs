@@ -6,7 +6,7 @@ pub fn section() -> Section {
         "".into(),
         None,
         html! {
-            h1 { "STUDY RUST ONLINE IN MOB PROGRAMMING FORMAT" }
+            h1 class="[word-spacing:100vw] text-center text-[min(7vw,15vh)] [line-height:1]" { "STUDY RUST ONLINE IN MOB-PROGRAMMING FORMAT" }
         },
     )
 
