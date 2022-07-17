@@ -6,7 +6,7 @@ pub fn section() -> Section {
         "flex flex-col items-center justify-center".into(),
         None,
         html! {
-            h1 class="[word-spacing:min(100vw,100vh)] text-center text-[min(7vw,11vh)] [line-height:1.1]" {
+            h1 class="[word-spacing:100vw] short:[word-spacing:unset] text-center text-[min(7vw,11vh)] [line-height:1.1]" {
                 p {"STUDY RUST ONLINE"}
                 p {"IN"}
                 p {"MOB-PROGRAMMING FORMAT"}
