@@ -3,13 +3,15 @@ mod join;
 mod main;
 mod mightyiam;
 mod mobs_calendar;
+mod start;
 mod why_mob;
+
 use maud::{html, Markup};
 use ndarray::Array2;
 
 pub fn sections() -> Array2<Section> {
     vec![
-        [main::section(), join::section(), why_mob::section()],
+        [start::section(), join::section(), why_mob::section()],
         [
             in_the_media::section(),
             mightyiam::section(),
